@@ -16,10 +16,8 @@ function SearchResults() {
         let results = [];
         
         if (query) {
-          // Поиск по названию
           results = await mealAPI.searchMealsByName(query);
         } else if (category) {
-          // Поиск по категории
           results = await mealAPI.getMealsByCategory(category);
         }
         

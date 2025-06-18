@@ -87,7 +87,6 @@ function RecipeDetail() {
         </div>
 
         <div className="recipe-body">
-          {/* Ингредиенты */}
           <div className="recipe-section">
             <h3>🥘 Ингредиенты</h3>
             <div className="ingredients-list">
@@ -100,7 +99,6 @@ function RecipeDetail() {
             </div>
           </div>
 
-          {/* Инструкции */}
           <div className="recipe-section">
             <h3>👨‍🍳 Инструкция по приготовлению</h3>
             <div className="instructions">
@@ -113,8 +111,6 @@ function RecipeDetail() {
               ))}
             </div>
           </div>
-
-          {/* Видео */}
           {meal.strYoutube && (
             <div className="recipe-section">
               <h3>📺 Видео рецепт</h3>
@@ -137,7 +133,6 @@ function RecipeDetail() {
             </div>
           )}
 
-          {/* Источник */}
           {meal.strSource && (
             <div className="recipe-section">
               <h3>🔗 Источник</h3>

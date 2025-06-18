@@ -41,7 +41,6 @@ function Home() {
 
   return (
     <div>
-      {/* Рецепт дня */}
       {featuredMeal && (
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#333' }}>
@@ -77,7 +76,6 @@ function Home() {
         </section>
       )}
 
-      {/* Популярные рецепты */}
       <section>
         <div style={{ 
           display: 'flex', 
